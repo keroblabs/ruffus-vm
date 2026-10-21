@@ -1,0 +1,48 @@
+#
+# RandomAccessFile.native 
+#
+
+class java/io/RandomAccessFile 5
+
+
+method <init>:()V
+method <init>:(Ljava/lang/String;Ljava/lang/String;)V
+
+method close:()V
+method getFilePointer:()J
+method length:()J
+method read:()I
+method read:([B)I
+method read:([BII)I
+method readBoolean:()Z
+method readByte:()B
+method readChar:()C
+method readDouble:()D
+method readFloat:()F
+method readFully:([B)V
+method readFully:([BII)V
+method readInt:()I
+method readLong:()J
+method readShort:()S
+method readUnsignedByte:()I
+method readUnsignedShort:()I
+method seek:(J)V
+method setLength:(J)V
+method skipBytes:(I)I
+method write:([B)V
+method write:([BII)V
+method write:(I)V
+method writeBoolean:(Z)V
+method writeByte:(I)V
+method writeBytes:(Ljava/lang/String;)V
+method writeChar:(I)V
+method writeChars:(Ljava/lang/String;)V
+method writeDouble:(D)V
+method writeFloat:(F)V
+method writeInt:(I)V
+method writeLong:(J)V
+method writeShort:(I)V
+method writeUTF:(Ljava/lang/String;)V
+
+
+

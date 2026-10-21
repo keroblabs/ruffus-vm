@@ -1,0 +1,21 @@
+#
+# InputStream.native 
+#
+
+class java/io/InputStream 5
+
+
+method <init>:()V
+
+method available:()I
+method close:()V
+method mark:(I)V
+method markSupported:()Z
+method read:()I
+method read:([B)I
+method read:([BII)I
+method reset:()V
+method skip:(J)J
+
+
+

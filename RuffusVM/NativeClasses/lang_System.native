@@ -1,0 +1,38 @@
+#
+# System.native 
+#
+
+class java/lang/System 5
+
+
+field err:Ljava/io/PrintStream; 0
+field in:Ljava/io/InputStream; 1
+field out:Ljava/io/PrintStream; 2
+
+method arraycopy:(Ljava/lang/Object;ILjava/lang/Object;II)V
+method clearProperty:(Ljava/lang/String;)Ljava/lang/String;
+method console:()Ljava/io/Console;
+method currentTimeMillis:()J
+method exit:(I)V
+method gc:()V
+method getenv:(Ljava/lang/String;)Ljava/lang/String;
+method getProperties:()Ljava/util/Properties;
+method getProperty:(Ljava/lang/String;)Ljava/lang/String;
+method getProperty:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+method getSecurityManager:()Ljava/lang/SecurityManager;
+method identityHashCode:(Ljava/lang/Object;)I
+method load:(Ljava/lang/String;)V
+method loadLibrary:(Ljava/lang/String;)V
+method mapLibraryName:(Ljava/lang/String;)Ljava/lang/String;
+method nanoTime:()J
+method runFinalization:()V
+method runFinalizersOnExit:(Z)V
+method setErr:(Ljava/io/PrintStream;)V
+method setIn:(Ljava/io/InputStream;)V
+method setOut:(Ljava/io/PrintStream;)V
+method setProperties:(Ljava/util/Properties;)V
+method setProperty:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+method setSecurityManager:(Ljava/lang/SecurityManager;)V
+
+
+

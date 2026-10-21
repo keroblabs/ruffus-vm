@@ -1,0 +1,50 @@
+#
+# Long.native 
+#
+
+class java/lang/Long 5
+
+
+field MAX_VALUE:J 0
+field MIN_VALUE:J 1
+field SIZE:I 2
+
+method <init>:(J)V
+method <init>:(Ljava/lang/String;)V
+
+method bitCount:(J)I
+method byteValue:()B
+method compareTo:(Ljava/lang/Long;)I
+method decode:(Ljava/lang/String;)Ljava/lang/Long;
+method doubleValue:()D
+method equals:(Ljava/lang/Object;)Z
+method floatValue:()F
+method getLong:(Ljava/lang/String;)Ljava/lang/Long;
+method getLong:(Ljava/lang/String;Ljava/lang/Long;)Ljava/lang/Long;
+method hashCode:()I
+method highestOneBit:(J)J
+method intValue:()I
+method longValue:()J
+method lowestOneBit:(J)J
+method numberOfLeadingZeros:(J)I
+method numberOfTrailingZeros:(J)I
+method parseLong:(Ljava/lang/String;)J
+method parseLong:(Ljava/lang/String;I)J
+method reverse:(J)J
+method reverseBytes:(J)J
+method rotateLeft:(JI)J
+method rotateRight:(JI)J
+method shortValue:()S
+method signum:(J)I
+method toBinaryString:(J)Ljava/lang/String;
+method toHexString:(J)Ljava/lang/String;
+method toOctalString:(J)Ljava/lang/String;
+method toString:()Ljava/lang/String;
+method toString:(J)Ljava/lang/String;
+method toString:(JI)Ljava/lang/String;
+method valueOf:(J)Ljava/lang/Long;
+method valueOf:(Ljava/lang/String;)Ljava/lang/Long;
+method valueOf:(Ljava/lang/String;I)Ljava/lang/Long;
+
+
+

@@ -1,0 +1,14 @@
+#
+# InputPointer.native 
+#
+
+class ruffus/system/InputPointer 5
+
+field posX:I 0
+field posY:I 1
+field state:I 2
+field onTTS:Z 3
+
+method <init>:()V
+method initTTS:(Ljava/lang/Object;)V
+method readTTS:(Ljava/lang/Object;)Z

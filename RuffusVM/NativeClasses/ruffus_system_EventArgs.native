@@ -1,0 +1,9 @@
+#
+# EventArgs.native 
+#
+
+class ruffus/system/EventArgs 5
+
+field Empty:Lruffus/system/EventArgs; 0
+
+method <init>:()V

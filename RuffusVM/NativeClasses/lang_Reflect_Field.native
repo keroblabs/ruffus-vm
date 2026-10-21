@@ -1,0 +1,14 @@
+#
+# reflect.Field.native 
+#
+
+class java/lang/reflect/Field 5
+
+
+method <init>:()V
+
+method getName:()Ljava/lang/String;
+method getDeclaringClass:()Ljava/lang/Class;
+
+
+

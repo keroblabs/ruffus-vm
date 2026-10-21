@@ -1,0 +1,44 @@
+#
+# Date.native 
+#
+
+class java/util/Date 5
+
+
+method <init>:()V
+method <init>:(III)V
+method <init>:(IIIII)V
+method <init>:(IIIIII)V
+method <init>:(J)V
+method <init>:(Ljava/lang/String;)V
+
+method after:(Ljava/util/Date;)Z
+method before:(Ljava/util/Date;)Z
+method clone:()Ljava/lang/Object;
+method compareTo:(Ljava/util/Date;)I
+method equals:(Ljava/lang/Object;)Z
+method getDate:()I
+method getDay:()I
+method getHours:()I
+method getMinutes:()I
+method getMonth:()I
+method getSeconds:()I
+method getTime:()J
+method getTimezoneOffset:()I
+method getYear:()I
+method hashCode:()I
+method parse:(Ljava/lang/String;)J
+method setDate:(I)V
+method setHours:(I)V
+method setMinutes:(I)V
+method setMonth:(I)V
+method setSeconds:(I)V
+method setTime:(J)V
+method setYear:(I)V
+method toGMTString:()Ljava/lang/String;
+method toLocaleString:()Ljava/lang/String;
+method toString:()Ljava/lang/String;
+method UTC:(IIIIII)J
+
+
+

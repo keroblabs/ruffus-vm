@@ -1,0 +1,154 @@
+#
+# Character.native 
+#
+
+class java/lang/Character 5
+
+
+field COMBINING_SPACING_MARK:B 0
+field CONNECTOR_PUNCTUATION:B 1
+field CONTROL:B 2
+field CURRENCY_SYMBOL:B 3
+field DASH_PUNCTUATION:B 4
+field DECIMAL_DIGIT_NUMBER:B 5
+field DIRECTIONALITY_ARABIC_NUMBER:B 6
+field DIRECTIONALITY_BOUNDARY_NEUTRAL:B 7
+field DIRECTIONALITY_COMMON_NUMBER_SEPARATOR:B 8
+field DIRECTIONALITY_EUROPEAN_NUMBER:B 9
+field DIRECTIONALITY_EUROPEAN_NUMBER_SEPARATOR:B 10
+field DIRECTIONALITY_EUROPEAN_NUMBER_TERMINATOR:B 11
+field DIRECTIONALITY_LEFT_TO_RIGHT:B 12
+field DIRECTIONALITY_LEFT_TO_RIGHT_EMBEDDING:B 13
+field DIRECTIONALITY_LEFT_TO_RIGHT_OVERRIDE:B 14
+field DIRECTIONALITY_NONSPACING_MARK:B 15
+field DIRECTIONALITY_OTHER_NEUTRALS:B 16
+field DIRECTIONALITY_PARAGRAPH_SEPARATOR:B 17
+field DIRECTIONALITY_POP_DIRECTIONAL_FORMAT:B 18
+field DIRECTIONALITY_RIGHT_TO_LEFT:B 19
+field DIRECTIONALITY_RIGHT_TO_LEFT_ARABIC:B 20
+field DIRECTIONALITY_RIGHT_TO_LEFT_EMBEDDING:B 21
+field DIRECTIONALITY_RIGHT_TO_LEFT_OVERRIDE:B 22
+field DIRECTIONALITY_SEGMENT_SEPARATOR:B 23
+field DIRECTIONALITY_UNDEFINED:B 24
+field DIRECTIONALITY_WHITESPACE:B 25
+field ENCLOSING_MARK:B 26
+field END_PUNCTUATION:B 27
+field FINAL_QUOTE_PUNCTUATION:B 28
+field FORMAT:B 29
+field INITIAL_QUOTE_PUNCTUATION:B 30
+field LETTER_NUMBER:B 31
+field LINE_SEPARATOR:B 32
+field LOWERCASE_LETTER:B 33
+field MATH_SYMBOL:B 34
+field MAX_CODE_POINT:I 35
+field MAX_HIGH_SURROGATE:C 36
+field MAX_LOW_SURROGATE:C 37
+field MAX_RADIX:I 38
+field MAX_SURROGATE:C 39
+field MAX_VALUE:C 40
+field MIN_CODE_POINT:I 41
+field MIN_HIGH_SURROGATE:C 42
+field MIN_LOW_SURROGATE:C 43
+field MIN_RADIX:I 44
+field MIN_SUPPLEMENTARY_CODE_POINT:I 45
+field MIN_SURROGATE:C 46
+field MIN_VALUE:C 47
+field MODIFIER_LETTER:B 48
+field MODIFIER_SYMBOL:B 49
+field NON_SPACING_MARK:B 50
+field OTHER_LETTER:B 51
+field OTHER_NUMBER:B 52
+field OTHER_PUNCTUATION:B 53
+field OTHER_SYMBOL:B 54
+field PARAGRAPH_SEPARATOR:B 55
+field PRIVATE_USE:B 56
+field SIZE:I 57
+field SPACE_SEPARATOR:B 58
+field START_PUNCTUATION:B 59
+field SURROGATE:B 60
+field TITLECASE_LETTER:B 61
+field UNASSIGNED:B 62
+field UPPERCASE_LETTER:B 63
+
+method <init>:(C)V
+
+method charCount:(I)I
+method charValue:()C
+method codePointAt:([CI)I
+method codePointAt:([CII)I
+method codePointAt:(Ljava/lang/CharSequence;I)I
+method codePointBefore:([CI)I
+method codePointBefore:([CII)I
+method codePointBefore:(Ljava/lang/CharSequence;I)I
+method codePointCount:([CII)I
+method codePointCount:(Ljava/lang/CharSequence;II)I
+method compareTo:(Ljava/lang/Character;)I
+method digit:(CI)I
+method digit:(II)I
+method equals:(Ljava/lang/Object;)Z
+method forDigit:(II)C
+method getDirectionality:(C)B
+method getDirectionality:(I)B
+method getNumericValue:(C)I
+method getNumericValue:(I)I
+method getType:(C)I
+method getType:(I)I
+method hashCode:()I
+method isDefined:(C)Z
+method isDefined:(I)Z
+method isDigit:(C)Z
+method isDigit:(I)Z
+method isHighSurrogate:(C)Z
+method isIdentifierIgnorable:(C)Z
+method isIdentifierIgnorable:(I)Z
+method isISOControl:(C)Z
+method isISOControl:(I)Z
+method isJavaIdentifierPart:(C)Z
+method isJavaIdentifierPart:(I)Z
+method isJavaIdentifierStart:(C)Z
+method isJavaIdentifierStart:(I)Z
+method isJavaLetter:(C)Z
+method isJavaLetterOrDigit:(C)Z
+method isLetter:(C)Z
+method isLetter:(I)Z
+method isLetterOrDigit:(C)Z
+method isLetterOrDigit:(I)Z
+method isLowerCase:(C)Z
+method isLowerCase:(I)Z
+method isLowSurrogate:(C)Z
+method isMirrored:(C)Z
+method isMirrored:(I)Z
+method isSpace:(C)Z
+method isSpaceChar:(C)Z
+method isSpaceChar:(I)Z
+method isSupplementaryCodePoint:(I)Z
+method isSurrogatePair:(CC)Z
+method isTitleCase:(C)Z
+method isTitleCase:(I)Z
+method isUnicodeIdentifierPart:(C)Z
+method isUnicodeIdentifierPart:(I)Z
+method isUnicodeIdentifierStart:(C)Z
+method isUnicodeIdentifierStart:(I)Z
+method isUpperCase:(C)Z
+method isUpperCase:(I)Z
+method isValidCodePoint:(I)Z
+method isWhitespace:(C)Z
+method isWhitespace:(I)Z
+method offsetByCodePoints:([CIIII)I
+method offsetByCodePoints:(Ljava/lang/CharSequence;II)I
+method reverseBytes:(C)C
+method toChars:(I)[C
+method toChars:(I[CI)I
+method toCodePoint:(CC)I
+method toLowerCase:(C)C
+method toLowerCase:(I)I
+method toString:()Ljava/lang/String;
+method toString:(C)Ljava/lang/String;
+method toTitleCase:(C)C
+method toTitleCase:(I)I
+method toUpperCase:(C)C
+method toUpperCase:(I)I
+method valueOf:(C)Ljava/lang/Character;
+
+
+

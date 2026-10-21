@@ -1,0 +1,109 @@
+#
+# Calendar.native 
+#
+
+class java/util/Calendar 5
+
+
+field ALL_STYLES:I 0
+field AM:I 1
+field AM_PM:I 2
+field APRIL:I 3
+field AREFIELDSSET:Z 4
+field AUGUST:I 5
+field DATE:I 6
+field DAY_OF_MONTH:I 7
+field DAY_OF_WEEK:I 8
+field DAY_OF_WEEK_IN_MONTH:I 9
+field DAY_OF_YEAR:I 10
+field DECEMBER:I 11
+field DST_OFFSET:I 12
+field ERA:I 13
+field FEBRUARY:I 14
+field FIELD_COUNT:I 15
+field FIELDS:[I 16
+field FRIDAY:I 17
+field HOUR:I 18
+field HOUR_OF_DAY:I 19
+field ISSET:[Z 20
+field ISTIMESET:Z 21
+field JANUARY:I 22
+field JULY:I 23
+field JUNE:I 24
+field LONG:I 25
+field MARCH:I 26
+field MAY:I 27
+field MILLISECOND:I 28
+field MINUTE:I 29
+field MONDAY:I 30
+field MONTH:I 31
+field NOVEMBER:I 32
+field OCTOBER:I 33
+field PM:I 34
+field SATURDAY:I 35
+field SECOND:I 36
+field SEPTEMBER:I 37
+field SHORT:I 38
+field SUNDAY:I 39
+field THURSDAY:I 40
+field TIME:J 41
+field TUESDAY:I 42
+field UNDECIMBER:I 43
+field WEDNESDAY:I 44
+field WEEK_OF_MONTH:I 45
+field WEEK_OF_YEAR:I 46
+field YEAR:I 47
+field ZONE_OFFSET:I 48
+
+method <init>:()V
+method <init>:(Ljava/util/TimeZone;Ljava/util/Locale;)V
+
+method add:(II)V
+method after:(Ljava/lang/Object;)Z
+method before:(Ljava/lang/Object;)Z
+method clear:()V
+method clear:(I)V
+method clone:()Ljava/lang/Object;
+method compareTo:(Ljava/util/Calendar;)I
+method complete:()V
+method computeFields:()V
+method computeTime:()V
+method equals:(Ljava/lang/Object;)Z
+method get:(I)I
+method getActualMaximum:(I)I
+method getActualMinimum:(I)I
+method getAvailableLocales:()[Ljava/util/Locale;
+method getDisplayName:(IILjava/util/Locale;)Ljava/lang/String;
+method getFirstDayOfWeek:()I
+method getGreatestMinimum:(I)I
+method getInstance:()Ljava/util/Calendar;
+method getInstance:(Ljava/util/Locale;)Ljava/util/Calendar;
+method getInstance:(Ljava/util/TimeZone;)Ljava/util/Calendar;
+method getInstance:(Ljava/util/TimeZone;Ljava/util/Locale;)Ljava/util/Calendar;
+method getLeastMaximum:(I)I
+method getMaximum:(I)I
+method getMinimalDaysInFirstWeek:()I
+method getMinimum:(I)I
+method getTime:()Ljava/util/Date;
+method getTimeInMillis:()J
+method getTimeZone:()Ljava/util/TimeZone;
+method hashCode:()I
+method internalGet:(I)I
+method isLenient:()Z
+method isSet:(I)Z
+method roll:(IZ)V
+method roll:(II)V
+method set:(II)V
+method set:(III)V
+method set:(IIIII)V
+method set:(IIIIII)V
+method setFirstDayOfWeek:(I)V
+method setLenient:(Z)V
+method setMinimalDaysInFirstWeek:(I)V
+method setTime:(Ljava/util/Date;)V
+method setTimeInMillis:(J)V
+method setTimeZone:(Ljava/util/TimeZone;)V
+method toString:()Ljava/lang/String;
+
+
+

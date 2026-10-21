@@ -1,0 +1,23 @@
+#
+# Object.native 
+#
+
+class java/lang/Object 5
+
+
+method <init>:()V
+
+method clone:()Ljava/lang/Object;
+method equals:(Ljava/lang/Object;)Z
+method finalize:()V
+method getClass:()Ljava/lang/Class;
+method hashCode:()I
+method notify:()V
+method notifyAll:()V
+method toString:()Ljava/lang/String;
+method wait:()V
+method wait:(J)V
+method wait:(JI)V
+
+
+

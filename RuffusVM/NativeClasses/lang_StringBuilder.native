@@ -1,0 +1,65 @@
+#
+# StringBuilder.native 
+#
+
+class java/lang/StringBuilder 5
+
+
+method <init>:()V
+method <init>:(Ljava/lang/CharSequence;)V
+method <init>:(I)V
+method <init>:(Ljava/lang/String;)V
+
+method append:(Z)Ljava/lang/StringBuilder;
+method append:(C)Ljava/lang/StringBuilder;
+method append:([C)Ljava/lang/StringBuilder;
+method append:([CII)Ljava/lang/StringBuilder;
+method append:(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+method append:(Ljava/lang/CharSequence;II)Ljava/lang/StringBuilder;
+method append:(D)Ljava/lang/StringBuilder;
+method append:(F)Ljava/lang/StringBuilder;
+method append:(I)Ljava/lang/StringBuilder;
+method append:(J)Ljava/lang/StringBuilder;
+method append:(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+method append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+method append:(Ljava/lang/StringBuffer;)Ljava/lang/StringBuilder;
+method appendCodePoint:(I)Ljava/lang/StringBuilder;
+method capacity:()I
+method charAt:(I)C
+method codePointAt:(I)I
+method codePointBefore:(I)I
+method codePointCount:(II)I
+method delete:(II)Ljava/lang/StringBuilder;
+method deleteCharAt:(I)Ljava/lang/StringBuilder;
+method ensureCapacity:(I)V
+method getChars:(II[CI)V
+method indexOf:(Ljava/lang/String;)I
+method indexOf:(Ljava/lang/String;I)I
+method insert:(IZ)Ljava/lang/StringBuilder;
+method insert:(IC)Ljava/lang/StringBuilder;
+method insert:(I[C)Ljava/lang/StringBuilder;
+method insert:(I[CII)Ljava/lang/StringBuilder;
+method insert:(ILjava/lang/CharSequence;)Ljava/lang/StringBuilder;
+method insert:(ILjava/lang/CharSequence;II)Ljava/lang/StringBuilder;
+method insert:(ID)Ljava/lang/StringBuilder;
+method insert:(IF)Ljava/lang/StringBuilder;
+method insert:(II)Ljava/lang/StringBuilder;
+method insert:(IJ)Ljava/lang/StringBuilder;
+method insert:(ILjava/lang/Object;)Ljava/lang/StringBuilder;
+method insert:(ILjava/lang/String;)Ljava/lang/StringBuilder;
+method lastIndexOf:(Ljava/lang/String;)I
+method lastIndexOf:(Ljava/lang/String;I)I
+method length:()I
+method offsetByCodePoints:(II)I
+method replace:(IILjava/lang/String;)Ljava/lang/StringBuilder;
+method reverse:()Ljava/lang/StringBuilder;
+method setCharAt:(IC)V
+method setLength:(I)V
+method subSequence:(II)Ljava/lang/CharSequence;
+method substring:(I)Ljava/lang/String;
+method substring:(II)Ljava/lang/String;
+method toString:()Ljava/lang/String;
+method trimToSize:()V
+
+
+

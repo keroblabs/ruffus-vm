@@ -1,0 +1,61 @@
+#
+# Vector.native 
+#
+
+class java/util/Vector 5
+
+
+field CAPACITYINCREMENT:I 0
+field ELEMENTCOUNT:I 1
+field ELEMENTDATA:[Ljava/lang/Object; 2
+
+method <init>:()V
+method <init>:(Ljava/util/Collection;)V
+method <init>:(I)V
+method <init>:(II)V
+
+method add:(ILjava/lang/Object;)V
+method add:(Ljava/lang/Object;)Z
+method addAll:(Ljava/util/Collection;)Z
+method addAll:(ILjava/util/Collection;)Z
+method addElement:(Ljava/lang/Object;)V
+method capacity:()I
+method clear:()V
+method clone:()Ljava/lang/Object;
+method contains:(Ljava/lang/Object;)Z
+method containsAll:(Ljava/util/Collection;)Z
+method copyInto:([Ljava/lang/Object;)V
+method elementAt:(I)Ljava/lang/Object;
+method elements:()Ljava/util/Enumeration;
+method ensureCapacity:(I)V
+method equals:(Ljava/lang/Object;)Z
+method firstElement:()Ljava/lang/Object;
+method get:(I)Ljava/lang/Object;
+method hashCode:()I
+method indexOf:(Ljava/lang/Object;)I
+method indexOf:(Ljava/lang/Object;I)I
+method insertElementAt:(Ljava/lang/Object;I)V
+method isEmpty:()Z
+method lastElement:()Ljava/lang/Object;
+method lastIndexOf:(Ljava/lang/Object;)I
+method lastIndexOf:(Ljava/lang/Object;I)I
+method remove:(I)Ljava/lang/Object;
+method remove:(Ljava/lang/Object;)Z
+method removeAll:(Ljava/util/Collection;)Z
+method removeAllElements:()V
+method removeElement:(Ljava/lang/Object;)Z
+method removeElementAt:(I)V
+method removeRange:(II)V
+method retainAll:(Ljava/util/Collection;)Z
+method set:(ILjava/lang/Object;)Ljava/lang/Object;
+method setElementAt:(Ljava/lang/Object;I)V
+method setSize:(I)V
+method size:()I
+method subList:(II)Ljava/util/List;
+method toArray:()[Ljava/lang/Object;
+method toArray:([Ljava/lang/Object;)[Ljava/lang/Object;
+method toString:()Ljava/lang/String;
+method trimToSize:()V
+
+
+

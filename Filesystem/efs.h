@@ -1,0 +1,24 @@
+#ifndef __EFS_H__
+#define __EFS_H__
+
+///////////////////////////////////////////////////////////////////////////////
+
+#include "types.h"
+#include "disc.h"
+#include "partition.h"
+#include "fs.h"
+#include "file.h"
+#include "fs_time.h"
+
+///////////////////////////////////////////////////////////////////////////////
+
+FileSystem * efs_get_filesystem( char * volume );
+void 		 efs_close_filesystem( FileSystem * fs );
+int          efs_format_unit( char * volume );
+
+void    	 efs_init( void );
+
+///////////////////////////////////////////////////////////////////////////////
+
+#endif
+

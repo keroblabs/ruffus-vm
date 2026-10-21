@@ -1,0 +1,39 @@
+#
+# BitSet.native 
+#
+
+class java/util/BitSet 5
+
+
+method <init>:()V
+method <init>:(I)V
+
+method and:(Ljava/util/BitSet;)V
+method andNot:(Ljava/util/BitSet;)V
+method cardinality:()I
+method clear:()V
+method clear:(I)V
+method clear:(II)V
+method clone:()Ljava/lang/Object;
+method equals:(Ljava/lang/Object;)Z
+method flip:(I)V
+method flip:(II)V
+method get:(I)Z
+method get:(II)Ljava/util/BitSet;
+method hashCode:()I
+method intersects:(Ljava/util/BitSet;)Z
+method isEmpty:()Z
+method length:()I
+method nextClearBit:(I)I
+method nextSetBit:(I)I
+method or:(Ljava/util/BitSet;)V
+method set:(I)V
+method set:(IZ)V
+method set:(II)V
+method set:(IIZ)V
+method size:()I
+method toString:()Ljava/lang/String;
+method xor:(Ljava/util/BitSet;)V
+
+
+

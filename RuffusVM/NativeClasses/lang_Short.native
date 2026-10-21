@@ -1,0 +1,35 @@
+#
+# Short.native 
+#
+
+class java/lang/Short 5
+
+
+field MAX_VALUE:S 0
+field MIN_VALUE:S 1
+field SIZE:I 2
+
+method <init>:(S)V
+method <init>:(Ljava/lang/String;)V
+
+method byteValue:()B
+method compareTo:(Ljava/lang/Short;)I
+method decode:(Ljava/lang/String;)Ljava/lang/Short;
+method doubleValue:()D
+method equals:(Ljava/lang/Object;)Z
+method floatValue:()F
+method hashCode:()I
+method intValue:()I
+method longValue:()J
+method parseShort:(Ljava/lang/String;)S
+method parseShort:(Ljava/lang/String;I)S
+method reverseBytes:(S)S
+method shortValue:()S
+method toString:()Ljava/lang/String;
+method toString:(S)Ljava/lang/String;
+method valueOf:(S)Ljava/lang/Short;
+method valueOf:(Ljava/lang/String;)Ljava/lang/Short;
+method valueOf:(Ljava/lang/String;I)Ljava/lang/Short;
+
+
+

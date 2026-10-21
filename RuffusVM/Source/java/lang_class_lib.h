@@ -1,0 +1,18 @@
+#ifndef NATIVE_LANG_CLASS_LIB_H
+#define NATIVE_LANG_CLASS_LIB_H
+
+///////////////////////////////////////////////////////////////////////////
+
+#include "datatypes.h"
+
+///////////////////////////////////////////////////////////////////////////
+
+app_instance_t * lang_class_lib_get_info( object_t class_object, object_t * p_object, uint32_t * cref );
+        
+object_t lang_class_lib_get_class( object_t object );
+
+///////////////////////////////////////////////////////////////////////////
+
+#endif // NATIVE_LANG_CLASS_LIB_H
+
+

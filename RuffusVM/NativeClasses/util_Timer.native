@@ -1,0 +1,23 @@
+#
+# Timer.native 
+#
+
+class java/util/Timer 5
+
+
+method <init>:()V
+method <init>:(Z)V
+method <init>:(Ljava/lang/String;)V
+method <init>:(Ljava/lang/String;Z)V
+
+method cancel:()V
+method purge:()I
+method schedule:(Ljava/util/TimerTask;Ljava/util/Date;)V
+method schedule:(Ljava/util/TimerTask;Ljava/util/Date;J)V
+method schedule:(Ljava/util/TimerTask;J)V
+method schedule:(Ljava/util/TimerTask;JJ)V
+method scheduleAtFixedRate:(Ljava/util/TimerTask;Ljava/util/Date;J)V
+method scheduleAtFixedRate:(Ljava/util/TimerTask;JJ)V
+
+
+

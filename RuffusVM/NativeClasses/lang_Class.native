@@ -1,0 +1,15 @@
+#
+# Class.native 
+#
+
+class java/lang/Class 5
+
+
+method <init>:()V
+
+method getName:()Ljava/lang/String;
+method getSimpleName:()Ljava/lang/String;
+method isArray:()Z
+
+
+

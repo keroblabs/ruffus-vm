@@ -1,0 +1,67 @@
+#
+# File.native 
+#
+
+class java/io/File 5
+
+
+field PATHSEPARATOR:Ljava/lang/String; 0
+field PATHSEPARATORCHAR:C 1
+field SEPARATOR:Ljava/lang/String; 2
+field SEPARATORCHAR:C 3
+
+method <init>:(Ljava/io/File;Ljava/lang/String;)V
+method <init>:(Ljava/lang/String;)V
+method <init>:(Ljava/lang/String;Ljava/lang/String;)V
+method <init>:()V
+
+method canExecute:()Z
+method canRead:()Z
+method canWrite:()Z
+method compareTo:(Ljava/io/File;)I
+method createNewFile:()Z
+method createTempFile:(Ljava/lang/String;Ljava/lang/String;)Ljava/io/File;
+method createTempFile:(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;)Ljava/io/File;
+method delete:()Z
+method deleteOnExit:()V
+method equals:(Ljava/lang/Object;)Z
+method exists:()Z
+method getAbsoluteFile:()Ljava/io/File;
+method getAbsolutePath:()Ljava/lang/String;
+method getCanonicalFile:()Ljava/io/File;
+method getCanonicalPath:()Ljava/lang/String;
+method getFreeSpace:()J
+method getName:()Ljava/lang/String;
+method getParent:()Ljava/lang/String;
+method getParentFile:()Ljava/io/File;
+method getPath:()Ljava/lang/String;
+method getTotalSpace:()J
+method getUsableSpace:()J
+method hashCode:()I
+method isAbsolute:()Z
+method isDirectory:()Z
+method isFile:()Z
+method isHidden:()Z
+method lastModified:()J
+method length:()J
+method list:()[Ljava/lang/String;
+method list:(Ljava/io/FilenameFilter;)[Ljava/lang/String;
+method listFiles:()[Ljava/io/File;
+method listFiles:(Ljava/io/FileFilter;)[Ljava/io/File;
+method listFiles:(Ljava/io/FilenameFilter;)[Ljava/io/File;
+method listRoots:()[Ljava/io/File;
+method mkdir:()Z
+method mkdirs:()Z
+method renameTo:(Ljava/io/File;)Z
+method setExecutable:(Z)Z
+method setExecutable:(ZZ)Z
+method setLastModified:(J)Z
+method setReadable:(Z)Z
+method setReadable:(ZZ)Z
+method setReadOnly:()Z
+method setWritable:(Z)Z
+method setWritable:(ZZ)Z
+method toString:()Ljava/lang/String;
+
+
+

@@ -1,0 +1,60 @@
+#
+# Thread.native 
+#
+
+class java/lang/Thread 5
+
+
+field MAX_PRIORITY:I 0
+field MIN_PRIORITY:I 1
+field NORM_PRIORITY:I 2
+
+method <init>:()V
+method <init>:(Ljava/lang/Runnable;)V
+method <init>:(Ljava/lang/Runnable;Ljava/lang/String;)V
+method <init>:(Ljava/lang/String;)V
+method <init>:(Ljava/lang/ThreadGroup;Ljava/lang/Runnable;)V
+method <init>:(Ljava/lang/ThreadGroup;Ljava/lang/Runnable;Ljava/lang/String;)V
+method <init>:(Ljava/lang/ThreadGroup;Ljava/lang/Runnable;Ljava/lang/String;J)V
+method <init>:(Ljava/lang/ThreadGroup;Ljava/lang/String;)V
+
+method activeCount:()I
+method checkAccess:()V
+method clone:()Ljava/lang/Object;
+method countStackFrames:()I
+method currentThread:()Ljava/lang/Thread;
+method destroy:()V
+method dumpStack:()V
+method enumerate:([Ljava/lang/Thread;)I
+method getContextClassLoader:()Ljava/lang/ClassLoader;
+method getId:()J
+method getName:()Ljava/lang/String;
+method getPriority:()I
+method getStackTrace:()[Ljava/lang/StackTraceElement;
+method getThreadGroup:()Ljava/lang/ThreadGroup;
+method holdsLock:(Ljava/lang/Object;)Z
+method interrupt:()V
+method interrupted:()Z
+method isAlive:()Z
+method isDaemon:()Z
+method isInterrupted:()Z
+method join:()V
+method join:(J)V
+method join:(JI)V
+method resume:()V
+method run:()V
+method setContextClassLoader:(Ljava/lang/ClassLoader;)V
+method setDaemon:(Z)V
+method setName:(Ljava/lang/String;)V
+method setPriority:(I)V
+method sleep:(J)V
+method sleep:(JI)V
+method start:()V
+method stop:()V
+method stop:(Ljava/lang/Throwable;)V
+method suspend:()V
+method toString:()Ljava/lang/String;
+method yield:()V
+
+
+

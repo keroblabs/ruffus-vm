@@ -1,0 +1,34 @@
+#
+# Runtime.native 
+#
+
+class java/lang/Runtime 5
+
+
+method addShutdownHook:(Ljava/lang/Thread;)V
+method availableProcessors:()I
+method exec:(Ljava/lang/String;)Ljava/lang/Process;
+method exec:([Ljava/lang/String;)Ljava/lang/Process;
+method exec:([Ljava/lang/String;[Ljava/lang/String;)Ljava/lang/Process;
+method exec:([Ljava/lang/String;[Ljava/lang/String;Ljava/io/File;)Ljava/lang/Process;
+method exec:(Ljava/lang/String;[Ljava/lang/String;)Ljava/lang/Process;
+method exec:(Ljava/lang/String;[Ljava/lang/String;Ljava/io/File;)Ljava/lang/Process;
+method exit:(I)V
+method freeMemory:()J
+method gc:()V
+method getLocalizedInputStream:(Ljava/io/InputStream;)Ljava/io/InputStream;
+method getLocalizedOutputStream:(Ljava/io/OutputStream;)Ljava/io/OutputStream;
+method getRuntime:()Ljava/lang/Runtime;
+method halt:(I)V
+method load:(Ljava/lang/String;)V
+method loadLibrary:(Ljava/lang/String;)V
+method maxMemory:()J
+method removeShutdownHook:(Ljava/lang/Thread;)Z
+method runFinalization:()V
+method runFinalizersOnExit:(Z)V
+method totalMemory:()J
+method traceInstructions:(Z)V
+method traceMethodCalls:(Z)V
+
+
+

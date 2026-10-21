@@ -1,0 +1,30 @@
+#
+# Menu.native 
+#
+
+class ruffus/widgets/Menu 5
+
+method <init>:()V
+
+method menuInit:(Ljava/lang/Object;)V
+method menuDisplay:(Ljava/lang/Object;)V
+
+field menuTitle:Ljava/lang/String; 0
+field currMessage:I 1
+field currItem:I 2
+field isCheck:Z 3
+field itemList:Ljava/util/Vector; 4
+
+field startX:I 5
+field startY:I 6
+field titleX:I 7
+field titleY:I 8
+field spacingY:I 9
+
+field  _items_ptr:Ljava/lang/Object; 10
+field _check_ptr:Ljava/lang/Object; 11
+field _data_ptr:Ljava/lang/Object; 12
+field _config_ptr:Ljava/lang/Object; 13
+
+field fontItems:I 14
+field fontTitle:I 15

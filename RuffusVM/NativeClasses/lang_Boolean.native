@@ -1,0 +1,26 @@
+#
+# Boolean.native 
+#
+
+class java/lang/Boolean 5
+
+
+field FALSE:Ljava/lang/Boolean; 0
+field TRUE:Ljava/lang/Boolean; 1
+
+method <init>:(Z)V
+method <init>:(Ljava/lang/String;)V
+
+method booleanValue:()Z
+method compareTo:(Ljava/lang/Boolean;)I
+method equals:(Ljava/lang/Object;)Z
+method getBoolean:(Ljava/lang/String;)Z
+method hashCode:()I
+method parseBoolean:(Ljava/lang/String;)Z
+method toString:()Ljava/lang/String;
+method toString:(Z)Ljava/lang/String;
+method valueOf:(Z)Ljava/lang/Boolean;
+method valueOf:(Ljava/lang/String;)Ljava/lang/Boolean;
+
+
+

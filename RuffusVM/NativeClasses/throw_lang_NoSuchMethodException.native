@@ -1,0 +1,11 @@
+#
+# NoSuchMethodException.native 
+#
+
+class java/lang/NoSuchMethodException 5
+
+method <init>:()V
+method <init>:(Ljava/lang/String;)V
+method toString:()Ljava/lang/String;
+
+

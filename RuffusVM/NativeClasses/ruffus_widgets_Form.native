@@ -1,0 +1,7 @@
+#
+# Form.native 
+#
+
+class ruffus/widgets/Form 5
+
+method create:(IILjava/lang/String;)Lruffus/widgets/Form;

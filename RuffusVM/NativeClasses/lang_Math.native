@@ -1,0 +1,67 @@
+#
+# Math.native 
+#
+
+class java/lang/Math 5
+
+
+field E:D 0
+field PI:D 1
+
+method abs:(D)D
+method abs:(F)F
+method abs:(I)I
+method abs:(J)J
+method acos:(D)D
+method asin:(D)D
+method atan:(D)D
+method atan2:(DD)D
+method cbrt:(D)D
+method ceil:(D)D
+method copySign:(DD)D
+method copySign:(FF)F
+method cos:(D)D
+method cosh:(D)D
+method exp:(D)D
+method expm1:(D)D
+method floor:(D)D
+method getExponent:(D)I
+method getExponent:(F)I
+method hypot:(DD)D
+method IEEEremainder:(DD)D
+method log:(D)D
+method log10:(D)D
+method log1p:(D)D
+method max:(DD)D
+method max:(FF)F
+method max:(II)I
+method max:(JJ)J
+method min:(DD)D
+method min:(FF)F
+method min:(II)I
+method min:(JJ)J
+method nextAfter:(DD)D
+method nextAfter:(FD)F
+method nextUp:(D)D
+method nextUp:(F)F
+method pow:(DD)D
+method random:()D
+method rint:(D)D
+method round:(D)J
+method round:(F)I
+method scalb:(DI)D
+method scalb:(FI)F
+method signum:(D)D
+method signum:(F)F
+method sin:(D)D
+method sinh:(D)D
+method sqrt:(D)D
+method tan:(D)D
+method tanh:(D)D
+method toDegrees:(D)D
+method toRadians:(D)D
+method ulp:(D)D
+method ulp:(F)F
+
+
+

@@ -1,0 +1,18 @@
+#
+# Process.native 
+#
+
+class java/lang/Process 5
+
+
+method <init>:()V
+
+method destroy:()V
+method exitValue:()I
+method getErrorStream:()Ljava/io/InputStream;
+method getInputStream:()Ljava/io/InputStream;
+method getOutputStream:()Ljava/io/OutputStream;
+method waitFor:()I
+
+
+

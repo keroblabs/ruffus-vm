@@ -1,0 +1,18 @@
+#
+# Number.native 
+#
+
+class java/lang/Number 5
+
+
+method <init>:()V
+
+method byteValue:()B
+method doubleValue:()D
+method floatValue:()F
+method intValue:()I
+method longValue:()J
+method shortValue:()S
+
+
+

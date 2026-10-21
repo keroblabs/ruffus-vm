@@ -1,0 +1,7 @@
+#
+# TextLabel.native 
+#
+
+class ruffus/widgets/Button 5
+
+method create:(IILjava/lang/String;)Lruffus/widgets/TextLabel;

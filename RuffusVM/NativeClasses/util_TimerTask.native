@@ -1,0 +1,15 @@
+#
+# TimerTask.native 
+#
+
+class java/util/TimerTask 5
+
+
+method <init>:()V
+
+method cancel:()Z
+method run:()V
+method scheduledExecutionTime:()J
+
+
+

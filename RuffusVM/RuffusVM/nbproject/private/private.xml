@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <data xmlns="http://www.netbeans.org/ns/make-project-private/1">
+        <activeConfTypeElem>1</activeConfTypeElem>
+        <activeConfIndexElem>0</activeConfIndexElem>
+    </data>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/1">
+        <file>file:/C:/Projects/GIT/mgcherobim/TimaOS_V31/RuffusVM/RuffusVM/main.c</file>
+        <file>file:/C:/Projects/GIT/mgcherobim/TimaOS_V31/RuffusVM/Source/vm/vm_debug.c</file>
+        <file>file:/C:/Projects/GIT/mgcherobim/TimaOS_V31/RuffusVM/Source/java_classes/io_file.c</file>
+        <file>file:/C:/Projects/GIT/mgcherobim/TimaOS_V31/RuffusVM/Source/java_classes/io_file.h</file>
+        <file>file:/C:/Projects/GIT/mgcherobim/TimaOS_V31/RuffusVM/Source/java_classes/util_date.c</file>
+        <file>file:/C:/Projects/GIT/mgcherobim/TimaOS_V31/RuffusVM/Source/java_classes/lang_string.c</file>
+        <file>file:/C:/Projects/GIT/mgcherobim/TimaOS_V31/RuffusVM/Source/java_classes/lang_stringbuilder.c</file>
+    </open-files>
+</project-private>

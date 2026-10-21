@@ -1,0 +1,35 @@
+#
+# TimeZone.native 
+#
+
+class java/util/TimeZone 5
+
+
+field LONG:I 0
+field SHORT:I 1
+
+method <init>:()V
+
+method clone:()Ljava/lang/Object;
+method getAvailableIDs:()[Ljava/lang/String;
+method getAvailableIDs:(I)[Ljava/lang/String;
+method getDefault:()Ljava/util/TimeZone;
+method getDisplayName:()Ljava/lang/String;
+method getDisplayName:(ZI)Ljava/lang/String;
+method getDisplayName:(ZILjava/util/Locale;)Ljava/lang/String;
+method getDisplayName:(Ljava/util/Locale;)Ljava/lang/String;
+method getDSTSavings:()I
+method getID:()Ljava/lang/String;
+method getOffset:(IIIIII)I
+method getOffset:(J)I
+method getRawOffset:()I
+method getTimeZone:(Ljava/lang/String;)Ljava/util/TimeZone;
+method hasSameRules:(Ljava/util/TimeZone;)Z
+method inDaylightTime:(Ljava/util/Date;)Z
+method setDefault:(Ljava/util/TimeZone;)V
+method setID:(Ljava/lang/String;)V
+method setRawOffset:(I)V
+method useDaylightTime:()Z
+
+
+

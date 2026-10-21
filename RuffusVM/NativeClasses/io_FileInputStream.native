@@ -1,0 +1,25 @@
+#
+# FileInputStream.native 
+#
+
+class java/io/FileInputStream 5
+
+
+method <init>:(Ljava/io/File;)V
+method <init>:(Ljava/io/FileDescriptor;)V
+method <init>:(Ljava/lang/String;)V
+
+method available:()I
+method close:()V
+method finalize:()V
+method getFD:()Ljava/io/FileDescriptor;
+method mark:(I)V
+method markSupported:()Z
+method read:()I
+method read:([B)I
+method read:([BII)I
+method reset:()V
+method skip:(J)J
+
+
+

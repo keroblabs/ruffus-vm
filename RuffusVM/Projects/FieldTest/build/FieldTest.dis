@@ -1,0 +1,210 @@
+Compiled from "FieldTest.java"
+public class FieldTest.FieldTest {
+  public FieldTest.FieldTest();
+    Code:
+       0: aload_0       
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: return        
+
+  public static void main(java.lang.String[]);
+    Code:
+       0: invokestatic  #2                  // Method ruffus/graphics/Drawing.getInstance:()Lruffus/graphics/Drawing;
+       3: invokevirtual #3                  // Method ruffus/graphics/Drawing.clear:()V
+       6: new           #4                  // class FieldTest/ReadField
+       9: dup           
+      10: invokespecial #5                  // Method FieldTest/ReadField."<init>":()V
+      13: astore_1      
+      14: aload_1       
+      15: invokevirtual #6                  // Method FieldTest/ReadField.Execute:()V
+      18: aload_1       
+      19: invokevirtual #7                  // Method FieldTest/ReadField.isExit:()Z
+      22: ifne          28
+      25: goto          18
+      28: getstatic     #8                  // Field java/lang/System.out:Ljava/io/PrintStream;
+      31: ldc           #9                  // String Exited
+      33: invokevirtual #10                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+      36: return        
+}
+Compiled from "ReadField.java"
+class FieldTest.ReadField$1 implements ruffus.system.Eventable {
+  final FieldTest.ReadField this$0;
+
+  FieldTest.ReadField$1(FieldTest.ReadField);
+    Code:
+       0: aload_0       
+       1: aload_1       
+       2: putfield      #1                  // Field this$0:LFieldTest/ReadField;
+       5: aload_0       
+       6: invokespecial #2                  // Method java/lang/Object."<init>":()V
+       9: return        
+
+  public void onRun(java.lang.Object, ruffus.system.EventArgs);
+    Code:
+       0: getstatic     #3                  // Field java/lang/System.out:Ljava/io/PrintStream;
+       3: ldc           #4                  // String Item 1 clicked
+       5: invokevirtual #5                  // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       8: return        
+}
+Compiled from "ReadField.java"
+class FieldTest.ReadField$2 implements ruffus.system.Eventable {
+  final FieldTest.ReadField this$0;
+
+  FieldTest.ReadField$2(FieldTest.ReadField);
+    Code:
+       0: aload_0       
+       1: aload_1       
+       2: putfield      #1                  // Field this$0:LFieldTest/ReadField;
+       5: aload_0       
+       6: invokespecial #2                  // Method java/lang/Object."<init>":()V
+       9: return        
+
+  public void onRun(java.lang.Object, ruffus.system.EventArgs);
+    Code:
+       0: getstatic     #3                  // Field java/lang/System.out:Ljava/io/PrintStream;
+       3: ldc           #4                  // String Item 2 clicked
+       5: invokevirtual #5                  // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       8: return        
+}
+Compiled from "ReadField.java"
+class FieldTest.ReadField$3 implements ruffus.system.Eventable {
+  final FieldTest.ReadField this$0;
+
+  FieldTest.ReadField$3(FieldTest.ReadField);
+    Code:
+       0: aload_0       
+       1: aload_1       
+       2: putfield      #1                  // Field this$0:LFieldTest/ReadField;
+       5: aload_0       
+       6: invokespecial #2                  // Method java/lang/Object."<init>":()V
+       9: return        
+
+  public void onRun(java.lang.Object, ruffus.system.EventArgs);
+    Code:
+       0: getstatic     #3                  // Field java/lang/System.out:Ljava/io/PrintStream;
+       3: ldc           #4                  // String This is exit
+       5: invokevirtual #5                  // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       8: aload_0       
+       9: getfield      #1                  // Field this$0:LFieldTest/ReadField;
+      12: iconst_1      
+      13: invokestatic  #6                  // Method FieldTest/ReadField.access$002:(LFieldTest/ReadField;Z)Z
+      16: pop           
+      17: return        
+}
+Compiled from "ReadField.java"
+class FieldTest.ReadField$4 implements ruffus.system.Eventable {
+  final FieldTest.ReadField this$0;
+
+  FieldTest.ReadField$4(FieldTest.ReadField);
+    Code:
+       0: aload_0       
+       1: aload_1       
+       2: putfield      #1                  // Field this$0:LFieldTest/ReadField;
+       5: aload_0       
+       6: invokespecial #2                  // Method java/lang/Object."<init>":()V
+       9: return        
+
+  public void onRun(java.lang.Object, ruffus.system.EventArgs);
+    Code:
+       0: aload_1       
+       1: checkcast     #3                  // class ruffus/widgets/Menu
+       4: astore_3      
+       5: getstatic     #4                  // Field java/lang/System.out:Ljava/io/PrintStream;
+       8: new           #5                  // class java/lang/StringBuilder
+      11: dup           
+      12: invokespecial #6                  // Method java/lang/StringBuilder."<init>":()V
+      15: ldc           #7                  // String Selected 
+      17: invokevirtual #8                  // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      20: aload_3       
+      21: getfield      #9                  // Field ruffus/widgets/Menu.currItem:I
+      24: invokevirtual #10                 // Method java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;
+      27: invokevirtual #11                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+      30: invokevirtual #12                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+      33: return        
+}
+Compiled from "ReadField.java"
+public class FieldTest.ReadField {
+  public FieldTest.ReadField();
+    Code:
+       0: aload_0       
+       1: invokespecial #2                  // Method java/lang/Object."<init>":()V
+       4: aload_0       
+       5: iconst_0      
+       6: putfield      #1                  // Field is_exit:Z
+       9: return        
+
+  public void Execute();
+    Code:
+       0: aload_0       
+       1: new           #3                  // class ruffus/widgets/Menu
+       4: dup           
+       5: ldc           #4                  // String Main menu
+       7: iconst_0      
+       8: invokespecial #5                  // Method ruffus/widgets/Menu."<init>":(Ljava/lang/String;Z)V
+      11: putfield      #6                  // Field m_menu:Lruffus/widgets/Menu;
+      14: aload_0       
+      15: getfield      #6                  // Field m_menu:Lruffus/widgets/Menu;
+      18: new           #7                  // class ruffus/widgets/MenuItem
+      21: dup           
+      22: ldc           #8                  // String Item 1
+      24: iconst_1      
+      25: new           #9                  // class FieldTest/ReadField$1
+      28: dup           
+      29: aload_0       
+      30: invokespecial #10                 // Method FieldTest/ReadField$1."<init>":(LFieldTest/ReadField;)V
+      33: invokespecial #11                 // Method ruffus/widgets/MenuItem."<init>":(Ljava/lang/String;ILruffus/system/Eventable;)V
+      36: invokevirtual #12                 // Method ruffus/widgets/Menu.addItem:(Lruffus/widgets/MenuItem;)V
+      39: aload_0       
+      40: getfield      #6                  // Field m_menu:Lruffus/widgets/Menu;
+      43: new           #7                  // class ruffus/widgets/MenuItem
+      46: dup           
+      47: ldc           #13                 // String Item 2
+      49: iconst_1      
+      50: new           #14                 // class FieldTest/ReadField$2
+      53: dup           
+      54: aload_0       
+      55: invokespecial #15                 // Method FieldTest/ReadField$2."<init>":(LFieldTest/ReadField;)V
+      58: invokespecial #11                 // Method ruffus/widgets/MenuItem."<init>":(Ljava/lang/String;ILruffus/system/Eventable;)V
+      61: invokevirtual #12                 // Method ruffus/widgets/Menu.addItem:(Lruffus/widgets/MenuItem;)V
+      64: aload_0       
+      65: getfield      #6                  // Field m_menu:Lruffus/widgets/Menu;
+      68: new           #7                  // class ruffus/widgets/MenuItem
+      71: dup           
+      72: ldc           #16                 // String Item 3
+      74: iconst_4      
+      75: new           #17                 // class FieldTest/ReadField$3
+      78: dup           
+      79: aload_0       
+      80: invokespecial #18                 // Method FieldTest/ReadField$3."<init>":(LFieldTest/ReadField;)V
+      83: invokespecial #11                 // Method ruffus/widgets/MenuItem."<init>":(Ljava/lang/String;ILruffus/system/Eventable;)V
+      86: invokevirtual #12                 // Method ruffus/widgets/Menu.addItem:(Lruffus/widgets/MenuItem;)V
+      89: aload_0       
+      90: getfield      #6                  // Field m_menu:Lruffus/widgets/Menu;
+      93: new           #19                 // class FieldTest/ReadField$4
+      96: dup           
+      97: aload_0       
+      98: invokespecial #20                 // Method FieldTest/ReadField$4."<init>":(LFieldTest/ReadField;)V
+     101: invokevirtual #21                 // Method ruffus/widgets/Menu.onMove:(Lruffus/system/Eventable;)V
+     104: return        
+
+  public boolean isExit();
+    Code:
+       0: invokestatic  #22                 // Method java/lang/Thread.yield:()V
+       3: aload_0       
+       4: getfield      #1                  // Field is_exit:Z
+       7: iconst_1      
+       8: if_icmpne     18
+      11: aload_0       
+      12: getfield      #6                  // Field m_menu:Lruffus/widgets/Menu;
+      15: invokevirtual #23                 // Method ruffus/widgets/Menu.stop:()V
+      18: aload_0       
+      19: getfield      #1                  // Field is_exit:Z
+      22: ireturn       
+
+  static boolean access$002(FieldTest.ReadField, boolean);
+    Code:
+       0: aload_0       
+       1: iload_1       
+       2: dup_x1        
+       3: putfield      #1                  // Field is_exit:Z
+       6: ireturn       
+}

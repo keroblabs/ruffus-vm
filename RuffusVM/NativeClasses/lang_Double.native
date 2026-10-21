@@ -1,0 +1,46 @@
+#
+# Double.native 
+#
+
+class java/lang/Double 5
+
+
+field MAX_EXPONENT:I 0
+field MAX_VALUE:D 1
+field MIN_EXPONENT:I 2
+field MIN_NORMAL:D 3
+field MIN_VALUE:D 4
+field NAN:D 5
+field NEGATIVE_INFINITY:D 6
+field POSITIVE_INFINITY:D 7
+field SIZE:I 8
+
+method <init>:(D)V
+method <init>:(Ljava/lang/String;)V
+
+method byteValue:()B
+method compare:(DD)I
+method compareTo:(Ljava/lang/Double;)I
+method doubleToLongBits:(D)J
+method doubleToRawLongBits:(D)J
+method doubleValue:()D
+method equals:(Ljava/lang/Object;)Z
+method floatValue:()F
+method hashCode:()I
+method intValue:()I
+method isInfinite:()Z
+method isInfinite:(D)Z
+method isNaN:()Z
+method isNaN:(D)Z
+method longBitsToDouble:(J)D
+method longValue:()J
+method parseDouble:(Ljava/lang/String;)D
+method shortValue:()S
+method toHexString:(D)Ljava/lang/String;
+method toString:()Ljava/lang/String;
+method toString:(D)Ljava/lang/String;
+method valueOf:(D)Ljava/lang/Double;
+method valueOf:(Ljava/lang/String;)Ljava/lang/Double;
+
+
+

@@ -1,0 +1,17 @@
+#
+# OutputStream.native 
+#
+
+class java/io/OutputStream 5
+
+
+method <init>:()V
+
+method close:()V
+method flush:()V
+method write:([B)V
+method write:([BII)V
+method write:(I)V
+
+
+

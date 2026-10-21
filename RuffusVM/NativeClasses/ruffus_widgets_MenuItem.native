@@ -1,0 +1,14 @@
+#
+# MenuItem.native 
+#
+
+class ruffus/widgets/MenuItem 5
+
+field index:I 0
+field caption:Ljava/lang/String; 1
+field handler:Lruffus/system/Eventable; 2
+field mode:I 3
+
+#method <init>:(Ljava/lang/String;ILruffus/system/Eventable;)V
+
+

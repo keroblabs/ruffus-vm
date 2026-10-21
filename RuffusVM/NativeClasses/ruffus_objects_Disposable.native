@@ -1,0 +1,14 @@
+#
+# Disposable.native 
+#
+
+class ruffus/objects/Disposable 5
+
+method vm_set_disposable:(Ljava/lang/Class;Ljava/lang/Object;)V
+method vm_is_disposable:(Ljava/lang/Object;)Z
+method vm_is_disposed:(Ljava/lang/Object;)Z
+method vm_dispose:(Ljava/lang/Object;)V
+method vm_dispose_all:()V
+
+method vm_object_redirect:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+

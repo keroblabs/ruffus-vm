@@ -1,0 +1,34 @@
+#
+# Byte.native 
+#
+
+class java/lang/Byte 5
+
+
+field MAX_VALUE:B 0
+field MIN_VALUE:B 1
+field SIZE:I 2
+
+method <init>:(B)V
+method <init>:(Ljava/lang/String;)V
+
+method byteValue:()B
+method compareTo:(Ljava/lang/Byte;)I
+method decode:(Ljava/lang/String;)Ljava/lang/Byte;
+method doubleValue:()D
+method equals:(Ljava/lang/Object;)Z
+method floatValue:()F
+method hashCode:()I
+method intValue:()I
+method longValue:()J
+method parseByte:(Ljava/lang/String;)B
+method parseByte:(Ljava/lang/String;I)B
+method shortValue:()S
+method toString:()Ljava/lang/String;
+method toString:(B)Ljava/lang/String;
+method valueOf:(B)Ljava/lang/Byte;
+method valueOf:(Ljava/lang/String;)Ljava/lang/Byte;
+method valueOf:(Ljava/lang/String;I)Ljava/lang/Byte;
+
+
+

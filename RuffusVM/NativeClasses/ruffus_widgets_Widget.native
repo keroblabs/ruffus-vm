@@ -1,0 +1,17 @@
+#
+# Widgets.native 
+#
+
+class ruffus/widgets/Widget 5
+
+method <init>:()V
+method addChild:(Lruffus/widgets/Widget;II)V
+method setColour:(Lruffus/graphics/Colour;I)V
+
+method setCaption:(Ljava/lang/String;)V
+method update:()V
+method setPosition:(II)V
+method show:(II)V
+method updateAll:()V
+method finalize:()V
+

@@ -1,0 +1,17 @@
+#
+# Drawing.native 
+#
+
+class ruffus/graphics/Drawing 5
+
+method <init>:()V
+method getInstance:()Lruffus/graphics/Drawing;
+
+method clear:()V
+method fillBox:(IIIILruffus/graphics/Colour;)V
+method drawBox:(IIIILruffus/graphics/Colour;)V
+method drawLine:(IIIILruffus/graphics/Colour;)V
+method drawLineTo:(IILruffus/graphics/Colour;)V
+method setPixel:(IILruffus/graphics/Colour;)V
+
+

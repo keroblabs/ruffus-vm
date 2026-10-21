@@ -1,0 +1,23 @@
+#
+# Random.native 
+#
+
+class java/util/Random 5
+
+
+method <init>:()V
+method <init>:(J)V
+
+method next:(I)I
+method nextBoolean:()Z
+method nextBytes:([B)V
+method nextDouble:()D
+method nextFloat:()F
+method nextGaussian:()D
+method nextInt:()I
+method nextInt:(I)I
+method nextLong:()J
+method setSeed:(J)V
+
+
+

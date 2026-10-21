@@ -1,0 +1,33 @@
+#
+# Formatter.native 
+#
+
+class java/util/Formatter 5
+
+
+method <init>:()V
+method <init>:(Ljava/lang/Appendable;)V
+method <init>:(Ljava/lang/Appendable;Ljava/util/Locale;)V
+method <init>:(Ljava/io/File;)V
+method <init>:(Ljava/io/File;Ljava/lang/String;)V
+method <init>:(Ljava/io/File;Ljava/lang/String;Ljava/util/Locale;)V
+method <init>:(Ljava/util/Locale;)V
+method <init>:(Ljava/io/OutputStream;)V
+method <init>:(Ljava/io/OutputStream;Ljava/lang/String;)V
+method <init>:(Ljava/io/OutputStream;Ljava/lang/String;Ljava/util/Locale;)V
+method <init>:(Ljava/io/PrintStream;)V
+method <init>:(Ljava/lang/String;)V
+method <init>:(Ljava/lang/String;Ljava/lang/String;)V
+method <init>:(Ljava/lang/String;Ljava/lang/String;Ljava/util/Locale;)V
+
+method close:()V
+method flush:()V
+method format:(Ljava/util/Locale;Ljava/lang/String;)Ljava/util/Formatter;
+method format:(Ljava/lang/String;)Ljava/util/Formatter;
+method ioException:()Ljava/io/IOException;
+method locale:()Ljava/util/Locale;
+method out:()Ljava/lang/Appendable;
+method toString:()Ljava/lang/String;
+
+
+

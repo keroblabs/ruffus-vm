@@ -1,0 +1,48 @@
+#
+# PrintStream.native 
+#
+
+class java/io/PrintStream 5
+
+
+method <init>:(Ljava/io/File;)V
+method <init>:(Ljava/io/File;Ljava/lang/String;)V
+method <init>:(Ljava/io/OutputStream;)V
+method <init>:(Ljava/io/OutputStream;Z)V
+method <init>:(Ljava/io/OutputStream;ZLjava/lang/String;)V
+method <init>:(Ljava/lang/String;)V
+method <init>:(Ljava/lang/String;Ljava/lang/String;)V
+
+method append:(C)Ljava/io/PrintStream;
+method append:(Ljava/lang/CharSequence;)Ljava/io/PrintStream;
+method append:(Ljava/lang/CharSequence;II)Ljava/io/PrintStream;
+method checkError:()Z
+method clearError:()V
+method close:()V
+method flush:()V
+method print:(Z)V
+method print:(C)V
+method print:([C)V
+method print:(D)V
+method print:(F)V
+method print:(I)V
+method print:(J)V
+method print:(Ljava/lang/Object;)V
+method print:(Ljava/lang/String;)V
+method println:()V
+method println:(Z)V
+method println:(C)V
+method println:([C)V
+method println:(D)V
+method println:(F)V
+method println:(I)V
+method println:(J)V
+method println:(Ljava/lang/Object;)V
+method println:(Ljava/lang/String;)V
+method setError:()V
+method write:([B)V
+method write:([BII)V
+method write:(I)V
+
+
+

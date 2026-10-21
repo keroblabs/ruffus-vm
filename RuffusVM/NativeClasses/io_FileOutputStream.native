@@ -1,0 +1,23 @@
+#
+# FileOutputStream.native 
+#
+
+class java/io/FileOutputStream 5
+
+
+method <init>:(Ljava/io/File;)V
+method <init>:(Ljava/io/File;Z)V
+method <init>:(Ljava/io/FileDescriptor;)V
+method <init>:(Ljava/lang/String;)V
+method <init>:(Ljava/lang/String;Z)V
+
+method close:()V
+method finalize:()V
+method flush:()V
+method getFD:()Ljava/io/FileDescriptor;
+method write:([B)V
+method write:([BII)V
+method write:(I)V
+
+
+
